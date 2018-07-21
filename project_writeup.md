@@ -111,7 +111,7 @@ Here are five German traffic signs that I found on the web.I resized the images 
 
 ![alt text](WebNewImages/24_road_narrows.png) 
 
-![alt text](WebNewImages/25_road_work.png.png) 
+![alt text](WebNewImages/25_road_work.png) 
 
 ![alt text](WebNewImages/28_children_crossing.png)
 

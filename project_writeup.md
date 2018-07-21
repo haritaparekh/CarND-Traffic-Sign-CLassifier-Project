@@ -34,14 +34,14 @@ The analysis of the basic summary of data set was doing using numpy methods.The 
 
 Here is an exploratory visualization of the data set. It is a bar chart showing data distribution for training, validation and test data. It visualizes the number of images available for each of the 43 classes.
 
-![alt text][WriteupImages/TrainingDataDistribution.png]
-![alt text][WriteupImages/ValidationDataDistribution.png]
-![alt text][WriteupImages/TestDataDistribution.png]
+Here is an exploratory visualization of the data set. It is a bar chart showing data distribution for training,validation and test data. It visualizes the number of images available for each of the 43 classes.
+
+![alt text](WriteupImages/TrainingDataDistribution.png)
+![alt text](WriteupImages/ValidationDataDistribution.png)
+![alt text](WriteupImages/TestDataDistribution.png)
 
 Below displaying image of each of the 43 class
-![alt text][WriteupImages/classes.png]
-
-
+![alt text](WriteupImages/classes.png)
 ### Design and Test a Model Architecture
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
@@ -56,7 +56,7 @@ After observing the data distribution, the next step was to analyze the differen
 
 My final model is Basic LENET with dropout layers.Following are the details of each layer:
 
-| Layer                      Description	                                      | 
+| Layer                 |    Description	                                      | 
 |:---------------------:|:---------------------------------------------:              | 
 | Input         	| 32x32x1 Grayscale image   	                              | 
 | Convolution 5x5    	| 1x1 stride, VALID padding, outputs 28x28x6	              |
@@ -105,12 +105,11 @@ My final model results were:
 
 Here are five German traffic signs that I found on the web.I resized the images to 32x32.
 
-![alt text][WebNewImages/14_stop.png] 
-![alt text][WebNewImages/23_slippery_road.png] 
-![alt text][WebNewImages/24_road_narrows.png] 
-![alt text][WebNewImages/25_road_work.png.png] 
-![alt text][WebNewImages/28_children_crossing.png]
-
+![alt text](WebNewImages/14_stop.png) 
+![alt text](WebNewImages/23_slippery_road.png)
+![alt text](WebNewImages/24_road_narrows.png) 
+![alt text](WebNewImages/25_road_work.png.png) 
+![alt text](WebNewImages/28_children_crossing.png)
 The slippery road image was the most difficult one since the sign isn't as clear as the rest of the images.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
@@ -118,7 +117,7 @@ The slippery road image was the most difficult one since the sign isn't as clear
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        	| 
-|:---------------------:|:---------------------------------------------:| 
+|:-----------------------------:|:-------------------------------------:| 
 | Stop Sign      		| Stop sign   			        | 
 | Slippery Road			| Slippery Road      			|		
 | Road Narrows                  | Road Narrows                          |
@@ -133,20 +132,19 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 The top five soft max probabilities for Stop Sign were
 
-![alt text][[WriteupImages/softmax_stop.png] 
+![alt text](WriteupImages/softmax_stop.png)
 
 The top five soft max probabilities for Slippery Road Sign were
-![alt text][WriteupImages/softmax_slipperyroad.png]
+![alt text](WriteupImages/softmax_slipperyroad.png)
 
 The top five soft max probabilities for Road Narrows Sign were
-![alt text][WriteupImages/softmax_roadNarrows.png]
+![alt text](WriteupImages/softmax_roadNarrows.png)
 
 The top five soft max probabilities for Road Work Sign were
-![alt text][WriteupImages/softmax_Roadwork.png]
+![alt text](WriteupImages/softmax_Roadwork.png)
 
 The top five soft max probabilities for Children Crossing Sign were
-![alt text][WriteupImages/SoftmaxChildren.png]
-
+![alt text](WriteupImages/SoftmaxChildren.png])
 
 
 

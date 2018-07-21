@@ -106,10 +106,16 @@ My final model results were:
 Here are five German traffic signs that I found on the web.I resized the images to 32x32.
 
 ![alt text](WebNewImages/14_stop.png) 
+
 ![alt text](WebNewImages/23_slippery_road.png)
+
 ![alt text](WebNewImages/24_road_narrows.png) 
+
 ![alt text](WebNewImages/25_road_work.png.png) 
+
 ![alt text](WebNewImages/28_children_crossing.png)
+
+
 The slippery road image was the most difficult one since the sign isn't as clear as the rest of the images.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
@@ -144,7 +150,7 @@ The top five soft max probabilities for Road Work Sign were
 ![alt text](WriteupImages/softmax_Roadwork.png)
 
 The top five soft max probabilities for Children Crossing Sign were
-![alt text](WriteupImages/SoftmaxChildren.png])
+![alt text](WriteupImages/SoftmaxChildren.png)
 
 
 
